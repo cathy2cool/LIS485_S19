@@ -1,0 +1,3 @@
+#file to avoid UTF-8 typeError
+
+data = pd.read_csv("FILENAME", low_memory=False, encoding="ISO-8859-1")
