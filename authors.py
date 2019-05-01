@@ -1,3 +1,4 @@
+#This will create an output listing by the key, in this case it is by the key 'author'
 import json
 with open('data.json') as jsonfile:
     parsed = json.load(jsonfile)
